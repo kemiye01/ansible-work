@@ -22,7 +22,6 @@
       enabled: yes
     when: ansible_distribution == "Amazon"  
 
-tasks:
   - name: Install Apache2
     apt:
       name: apache2
