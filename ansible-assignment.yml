@@ -1,0 +1,22 @@
+---
+- name: Install Tomcat server
+  hosts: node1,node2,node3
+  become: yes
+
+  tasks:
+  - name: Install apache tomcat
+    yum:
+      name: apache tomcat
+      state: present
+
+  - name: Start apache tomcat
+    service:
+      name: apache tomcat
+      state: started
+
+  - name: Enable apache tomcat
+    service:
+      name: apache tomcat
+      enabled: yes
+...
+     

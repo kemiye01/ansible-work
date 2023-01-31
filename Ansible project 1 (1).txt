@@ -1,0 +1,9 @@
+Create a github repository 
+Create an sh script to display the current time
+Use ansible to install the tomcat servers on centos
+Use ansible to deploy this script to 3 tomcat servers
+Set a cron job to schedule the time every 2 minutes 
+
+Comit your playbooks to your github repository 
+
+Note: use search engines for research 
